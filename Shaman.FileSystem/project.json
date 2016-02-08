@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0-beta-4175",
+  "authors": [
+    "Andrea Martinelli"
+  ],
+  "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
+  "projectUrl": "http://shaman.io/",
+  "compilationOptions": {
+    "keyFile": "ShamanOpenSourceKey.snk",
+    "define": [
+      "STANDALONE",
+      "SMALL_LIB_AWDEE"
+    ]
+  },
+  "compile": [],
+  "dependencies": {},
+  "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Windows.Forms": "4.0.0.0",
+        "System.Runtime": "4.0.0.0"
+      }
+    },
+    "dotnet": {
+      "compilationOptions": {
+        "define": [
+          "CORECLR"
+        ]
+      },
+      "dependencies": {
+        "System.Runtime": "4.0.21-beta-23217",
+        "System.Runtime.Extensions": "4.0.11-beta-23217",
+        "System.IO.FileSystem": "4.0.1-beta-23217"
+      }
+    },
+    "net35": {}
+  }
+}
