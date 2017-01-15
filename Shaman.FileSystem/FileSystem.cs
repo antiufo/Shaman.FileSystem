@@ -73,7 +73,7 @@ namespace Shaman.Runtime
                 }
                 catch
                 {
-                    throw ex1;
+                    throw;
                 }
             }
         }
